@@ -1,0 +1,24 @@
+:root {
+  --cor-primaria: #383b53;
+  --cor-texto: #d1caa1;
+  --fonte: "Roboto", sans-serif;
+}
+
+body {
+  background-color: var(--cor-primaria);
+  color: var(--cor-texto);
+  font-family: var(--fonte);
+  font-weight: bold;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+#send_button {
+  width: 15%;
+}

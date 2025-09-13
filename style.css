@@ -1,6 +1,7 @@
 :root {
-  --cor-primaria: #383b53;
-  --cor-texto: #d1caa1;
+  --cor-primaria: #22223b;
+  --cor-texto: #f2e9e4;
+  --cor-botao: #4a4e69;
   --fonte: "Roboto", sans-serif;
 }
 
@@ -21,4 +22,20 @@ body {
 
 #send_button {
   width: 15%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  line-height: normal;
+  cursor: pointer;
+  padding: 10px;
+  background-color: var(--cor-botao);
+  border-radius: 12px;
+  text-align: center;
 }

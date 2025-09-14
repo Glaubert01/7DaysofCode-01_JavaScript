@@ -13,6 +13,9 @@ body {
   font-weight: bold;
 }
 
+.titulo {
+  padding-left: 6px;
+}
 .form {
   display: flex;
   flex-direction: column;
@@ -43,4 +46,12 @@ body {
 
 #send_button:hover {
   background-color: var(--cor-hover);
+}
+
+.tabela_dados {
+  padding: 20px 0 0 10px;
+}
+
+th {
+  padding-right: 40px;
 }

@@ -1,6 +1,12 @@
+import { saveAndRender } from "./save.js";
+
 const form = document.querySelector(".js-form");
 const nameField = document.getElementById("name");
 const dateField = document.getElementById("birth-date");
+
+document.addEventListener("DOMContentLoaded", () => {
+  saveAndRender(true);
+});
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -9,6 +15,10 @@ form.addEventListener("submit", (e) => {
   if (!validateDate()) return;
 
   showSuccess();
+  var nome = nameField.value.trim();
+  var data = dateField.value;
+  saveAndRender(false, nome, data);
+
   clearFields();
 });
 

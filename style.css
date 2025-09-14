@@ -55,3 +55,27 @@ body {
 th {
   padding-right: 40px;
 }
+
+td {
+  padding-right: 40px;
+}
+
+.tabela_dados th,
+.tabela_dados td {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.tabela_dados th,
+.tabela_dados td {
+  padding: 10px 14px;
+}
+
+.tabela_dados thead th {
+  text-align: center;
+  font-weight: 700;
+  background: #1f2333;
+}
+
+.tabela_dados td {
+  text-align: center;
+}

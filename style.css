@@ -2,6 +2,7 @@
   --cor-primaria: #22223b;
   --cor-texto: #f2e9e4;
   --cor-botao: #4a4e69;
+  --cor-hover: #5667d6;
   --fonte: "Roboto", sans-serif;
 }
 
@@ -38,4 +39,8 @@ body {
   background-color: var(--cor-botao);
   border-radius: 12px;
   text-align: center;
+}
+
+#send_button:hover {
+  background-color: var(--cor-hover);
 }
